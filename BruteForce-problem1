@@ -2,7 +2,8 @@
 //
 Brute Force Algorithm: just like iterating every possibility in an array
 
-
+x+y=target
+fix the value of x, to find Y,Y=result-x
 
 package com.company;
 
