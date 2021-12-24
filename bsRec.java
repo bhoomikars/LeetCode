@@ -1,5 +1,5 @@
 public static int search(int[] a, int target, int l , int h) {
-        if(h>=1)
+        if(h>=l)
         {
             int mid = (l+h)/2;
             if(target==a[mid])
