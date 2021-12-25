@@ -9,8 +9,15 @@
 // target>mid
 // l =mid+1;
 
-class Solution {
-    public int search(int[] nums, int target) {
+public class BS
+{
+    public static void main (String[] args)
+    {
+        int [] a ={1,2,3};
+        System.out.println(bs(a,1));
+    }
+    public static int bs(int[]nums,int target)
+    {
         int l =0;
         int h = nums.length-1;
         while(l<=h)
@@ -28,10 +35,9 @@ class Solution {
             {
                 h = mid-1;
             }
-      
-        }
-        
-              return -1;
-    }
 
+        }
+
+        return -1;
+    }
 }
