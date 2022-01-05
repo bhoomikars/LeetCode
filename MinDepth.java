@@ -8,7 +8,7 @@ class Solution {
         
         int left = minDepth(root.left);
         int right = minDepth(root.right);
-    
+       // if its skewed tree
       if(root.left==null || root.right==null)
       {
           return Math.max(left,right)+1;
