@@ -13,6 +13,15 @@
  *     }
  * }
  */
+Base conditions 
+1.if node to be deleted is having left child only then return right side
+2. if node to be deleted is having right child only then return left side
+3. if having both then go to right fine min val then make root value that delete the right side value 
+
+
+
+
+
 class Solution {
     public TreeNode deleteNode(TreeNode root, int key) {
         
